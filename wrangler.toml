@@ -4,8 +4,8 @@ compatibility_date = "2024-09-01"
 
 # --- KV Namespaces ---
 kv_namespaces = [
-  { binding = "BOT_KV", id = "2dc3b08851bf4d86b542cb1334b8381d" },
-  { binding = "BOT_SESSIONS", id = "c52b2e299f194abfb106edcddeb3aa55" }
+  { binding = "BOT_KV", id = "" },
+  { binding = "BOT_SESSIONS", id = "" }
 ]
 
 # --- Secrets (set with: npx wrangler secret put BOT_TOKEN) ---
@@ -13,9 +13,9 @@ kv_namespaces = [
 # npx wrangler secret put OWNER_ID
 
 [vars]
-BOT_NAME = "Vj"
-BOT_USERNAME = "Vj_PANEL_BOT"
-PUBLIC_BASE_URL = "https://your-worker.example.com"
+BOT_NAME = ""
+BOT_USERNAME = ""
+PUBLIC_BASE_URL = ""
 ZARINPAL_SANDBOX = "true"
 
 # --- Cron triggers ---
